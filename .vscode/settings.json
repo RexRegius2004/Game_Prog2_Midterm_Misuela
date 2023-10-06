@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GP2-Midterms.sln"
+    "dotnet.defaultSolution": "Game_Prog2_Midterm_Misuela.sln"
 }

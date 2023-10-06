@@ -6,6 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     public float enemySpeed;
     public Transform target;
+   
 
     void Awake()
     {
@@ -23,16 +24,6 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Red"))
-        {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
-
-        
-    }
 
     private void OnCollisionEnter(Collision other)
     {

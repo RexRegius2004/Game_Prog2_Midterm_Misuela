@@ -6,8 +6,8 @@ public class PlayerFire : MonoBehaviour
 {
     public Transform bulletSpawnLoc;
     public GameObject bulletPrefab;
-    public float bulletSpeed = 10f;
-    public float fireRate = 5;
+    public float bulletSpeed = 1f;
+    public float fireRate = 1;
     private float baseFireRate;
 
     void Start()
