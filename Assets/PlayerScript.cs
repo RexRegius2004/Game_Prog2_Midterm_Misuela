@@ -61,6 +61,14 @@ public class PlayerScript : MonoBehaviour
 
         player.SetActive(true);
     }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+    }
 
     private void OnDrawGizmos()
     {

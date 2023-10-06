@@ -25,12 +25,4 @@ public class EnemyScript : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
-    }
 }

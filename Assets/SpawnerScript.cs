@@ -33,7 +33,7 @@ public class SpawnerScript : MonoBehaviour
 
     public void Spawn()
     {
-       int i = Random.Range(1,3);
+       int i = Random.Range(1,4);
         switch(i)
         {
             
